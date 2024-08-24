@@ -1,0 +1,235 @@
+.juego{
+text-align: center;
+text-transform: lowercase;
+color: #000000;
+font-size: 90px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+margin: 100px;
+
+}
+.contenido{
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    justify-content: center;
+    
+    }
+    
+    .casilla:hover  {
+    opacity: 0.8;
+    }
+
+.texto{
+    color: #224d34;
+    left: 300px;
+    top: 1500px;
+    width: 500px;
+position: absolute;
+margin: 420px;
+text-align: center;
+font-size: 40px;
+}
+
+.logomedi{
+    position: absolute;
+    top: 1800px;
+    left: 20px;
+}
+
+.filo{
+    position: absolute;
+    top: 1600px;
+    left: 350px;
+    text-transform: lowercase;
+    color: #000000;
+    font-size: 90px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+margin: 100px;
+
+}
+
+.mision{
+    position: absolute;
+    top: 2500px;
+    left: 30px;
+}
+
+.vision{
+    position: absolute;
+    top: 2490px;
+    left: 800px;
+}
+
+
+
+
+
+
+
+
+.so{
+    text-align: center;
+    font-size: 90px;
+    color: #575757;
+    opacity: 0.8;
+    text-decoration: dashed;
+}
+
+
+.text{
+    position: absolute;
+    left: 700px;
+    top: 800px;
+    color: #fff9f9;
+      border-width: 10px;
+      font-size: 40px; 
+      background-color: #575757;
+      opacity: 0.8;  
+    }
+.menos{
+    position: absolute;
+      font-size: 20px;     
+      background-color: #575757;
+      opacity: 0.8; 
+}
+
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+position: relative;
+top: 15;
+left: 10;
+z-index: 6;
+}
+.logo :hover{
+    opacity: 0.8;
+}
+
+
+.navimenu {
+background-color: #333;
+width: 100%;  /* Asegura que el nav cubra todo el ancho de la página */
+position: fixed;
+top: 0;
+left: 0;
+z-index: 5;
+}
+.dentro {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+
+}
+
+.menu-horizontal {
+
+list-style-type: none;
+margin: 0;
+padding: 0;
+display: flex;         /* Asegura que los elementos se alineen en fila */
+justify-content: end;
+font-size: 20px;
+background-color: #333;
+}
+
+.menu-horizontal li {
+margin: 0;
+}
+
+.menu-horizontal li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 20px;
+text-decoration: none;
+}
+
+.menu-horizontal li a:hover {
+background-color: #575757;
+}
+
+
+
+.fondo{
+    background-image: url(https://image.slidesdocs.com/responsive-images/background/lush-green-football-arena-in-stunning-3d-vision-powerpoint-background_befb24f0ba__960_540.jpg);
+    color: #000000;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+
+.titu{
+    text-align: center;
+    color: #FFD27D;
+    background-color: black;
+    font-size: 40px;
+}
+.mapa{
+    height: 800px;
+    width: 1000px;
+   position: relative;
+   top: 0;
+   left: 100px;
+
+}
+
+.alemania {
+position: absolute;
+top: 2520px;
+left: 580px;
+border-radius: 10px;
+}
+  
+.alemania:hover{
+    opacity: 1;
+    transform: scale(1.2);
+    box-shadow: 0 0 10px rgba(255, 230, 0, 0.993);
+}
+  
+.francia {
+    position: absolute;
+    top: 2560px;
+    left: 500px;
+    border-radius: 10px;
+    }
+
+.francia:hover{
+    opacity: 1;
+    transform: scale(1.2);
+    box-shadow: 0 0 10px rgba(255, 230, 0, 0.993);
+}
+    
+.eu {
+    position: absolute;
+    top: 2500px;
+   left: 300px;
+   border-radius: 10px;
+        }
+.eu:hover{
+    opacity: 1;
+    transform: scale(1.2);
+    box-shadow: 0 0 10px rgba(255, 230, 0, 0.993);
+}
+.portugal {
+ position: absolute;
+ top: 2600px;
+ left: 480px;
+ border-radius: 10px;
+                }
+
+.portugal:hover{
+    opacity: 1;
+    transform: scale(1.2);
+    box-shadow: 0 0 10px rgba(255, 230, 0, 0.993);
+}
